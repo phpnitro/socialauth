@@ -1,0 +1,14 @@
+{
+    "name": "phpnitro/socialauth",
+    "description": "PhpNitro's social auth package — OAuth2 sign-in for GitHub/Facebook/Microsoft/Apple (Engine\\SocialAuth\\*).",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engine\\SocialAuth\\": "src/"
+        }
+    }
+}
